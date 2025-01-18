@@ -1,5 +1,5 @@
 items<public> := module:
-    item_tables := module:
+    item_tables<public> := module:
         using { item_ids }
         
         ItemTables<public>: [][][]int = array:
